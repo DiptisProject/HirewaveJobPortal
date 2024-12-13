@@ -1,0 +1,125 @@
+/* Main container styling */
+.container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  /* Light background for the main container */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Heading styles */
+h2 {
+  color: #343a40;
+  /* Dark text color */
+  margin-bottom: 20px;
+  /* Space below heading */
+}
+
+h3 {
+  color: #007bff;
+  /* Blue color for job titles */
+  margin-top: 20px;
+  /* Space above job title */
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+  /* Space below form group */
+}
+
+/* Input field styling */
+.form-control {
+  border-radius: 4px;
+  /* Rounded corners */
+  border: 1px solid #ced4da;
+  /* Light grey border */
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  /* Focus shadow */
+}
+
+/* List group styles */
+.list-group {
+  margin-top: 20px;
+  /* Space above list group */
+}
+
+/* Card wrapper styles */
+.card-wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px auto;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 20px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Shadow on hover */
+  transform: scale(1.05);
+  /* Zoom effect on hover */
+}
+
+/* Card title styles */
+.card-title {
+  font-size: 1.25rem;
+  /* Larger font size for titles */
+  color: #007bff;
+  /* Blue color for titles */
+}
+
+/* Card subtitle styles */
+.card-subtitle {
+  font-size: 1rem;
+  /* Font size for subtitles */
+  color: #6c757d;
+  /* Muted color for subtitles */
+}
+
+/* Card text styles */
+.card-text {
+  font-size: 0.9rem;
+  /* Smaller font size for text */
+  color: #495057;
+  /* Darker color for text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    /* Less padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    /* Smaller font size for headings */
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    /* Smaller font size for job titles */
+  }
+
+  .card {
+    margin-bottom: 15px;
+    /* More space below cards on smaller screens */
+  }
+}
